@@ -1,0 +1,8 @@
+.about-page { padding: 24px; max-width: 900px; margin: 0 auto; }
+.about-page h2 { color: #1e7bb3; margin-bottom: 16px; }
+.intro { font-size: 1.1rem; color: #555; margin-bottom: 32px; line-height: 1.6; }
+.about-page section { margin-bottom: 32px; }
+.about-page h3 { color: #2aaaa6; margin-bottom: 12px; }
+.about-page ul { line-height: 1.8; }
+.about-page a { color: #1e7bb3; text-decoration: none; }
+.about-page a:hover { text-decoration: underline; }

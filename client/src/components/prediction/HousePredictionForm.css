@@ -1,0 +1,368 @@
+/* Root Container */
+.house-predict-root {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e1eaff 0%, #f5faff 100%);
+  padding: 32px 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+}
+
+/* Back Button */
+.back-btn {
+  background: none;
+  border: none;
+  color: #3f83f8;
+  font-size: 1.15rem;
+  margin-left: 40px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.back-btn:hover {
+  color: #1e40af;
+}
+
+/* Flex Panels Container */
+.house-predict-panels {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Card style */
+.property-details-card,
+.price-prediction-card {
+  background: #fff;
+  border-radius: 22px;
+  box-shadow: 0 8px 24px rgb(59 130 246 / 0.15);
+  padding: 48px 42px 42px 42px;
+  min-width: 380px;
+  max-width: 460px;
+  flex: 1;
+}
+
+/* Header and Icon */
+.property-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+.property-header .icon img {
+  width: 38px;
+  height: 38px;
+}
+.property-title {
+  font-size: 1.52rem;
+  font-weight: 700;
+  color: #3f83f8;
+  letter-spacing: 0.3px;
+}
+.property-desc {
+  color: #64748b;
+  font-size: 1.12rem;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  line-height: 1.75;
+}
+
+/* Form Layout */
+.property-form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Group and Label */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  gap: 8px;
+}
+.form-label {
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  letter-spacing: 0.15px;
+  user-select: none;
+}
+
+/* Inputs and Selects */
+.property-form input[type="text"],
+.property-form input[type="number"],
+.property-form select {
+  width: 100%;
+  border: 2px solid #cbd5e1;
+  border-radius: 11px;
+  padding: 16px 18px;
+  font-size: 1.12rem;
+  background: #fdfcff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline-offset: 3px;
+}
+.property-form input[type="text"]:focus,
+.property-form input[type="number"]:focus,
+.property-form select:focus {
+  border-color: #3f83f8;
+  box-shadow: 0 0 14px rgba(63, 131, 248, 0.4);
+}
+
+/* Select cursor */
+.property-form select {
+  cursor: pointer;
+}
+
+/* Rows Flexbox */
+.form-row {
+  display: flex;
+  gap: 26px;
+  margin-bottom: 0;
+}
+.form-row .form-group {
+  flex: 1;
+}
+
+/* Buttons */
+.predict-btn {
+  background: linear-gradient(90deg, #3f83f8 0%, #74b1fa 100%);
+  color: #fff;
+  border: none;
+  border-radius: 11px;
+  padding: 18px 0;
+  font-size: 1.22rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 22px rgba(63, 131, 248, 0.35);
+}
+.predict-btn:hover:not(:disabled) {
+  background: linear-gradient(90deg, #2563eb 0%, #3f83f8 100%);
+  box-shadow: 0 10px 28px rgba(37, 99, 235, 0.6);
+}
+.predict-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Use My Location Button */
+.location-btn {
+  background-color: #3f83f8;
+  color: white;
+  border: none;
+  border-radius: 11px;
+  padding: 12px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.location-btn:hover {
+  background-color: #1e40af;
+}
+.input-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+.input-icon {
+  font-size: 1.3rem;
+  color: #64748b;
+}
+.input-with-icon > input {
+  flex: 1;
+}
+.input-with-icon > .location-btn {
+  margin-left: 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Facility Section */
+.facility-label {
+  font-weight: 700;
+  color: #294472;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+.facility-radios {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 12px;
+  margin-left: 6px;
+}
+.facility-radios label {
+  display: flex;
+  align-items: center;
+  font-size: 1.05rem;
+  gap: 8px;
+  font-weight: 500;
+  color: #405b88;
+  cursor: pointer;
+  user-select: none;
+}
+.facility-radios input[type="radio"] {
+  accent-color: #3f83f8;
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+.facility-radios input[type="radio"]:hover {
+  outline: 2px solid #74b1fa;
+}
+
+/* Distance Input */
+.form-group input[type="number"] {
+  width: 70%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: 2px solid #cbd5e1;
+  border-radius: 10px;
+  outline-offset: 3px;
+  transition: border-color 0.3s ease;
+  margin-left: 38px;
+}
+.form-group input[type="number"]:focus {
+  border-color: #3f83f8;
+  box-shadow: 0 0 14px rgba(63, 131, 248, 0.35);
+}
+
+/* Map Styles */
+.property-form .form-group .map-component {
+  margin-top: 8px;
+  min-height: 250px;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 5px 18px rgba(63, 131, 248, 0.2);
+}
+
+/* Selected Coordinates Text */
+.selected-coord {
+  font-size: 0.92rem;
+  color: #475569;
+  margin-top: 6px;
+}
+
+/* Price Section */
+.price-prediction-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 425px;
+  justify-content: flex-start;
+}
+.price-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+.price-icon {
+  font-size: 1.45rem;
+  color: #3f83f8;
+}
+.price-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #3f83f8;
+}
+.price-desc {
+  color: #64748b;
+  font-size: 1.07rem;
+  margin-bottom: 40px;
+}
+.price-output {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  min-height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-result {
+  font-size: 1.7rem;
+  color: #1c3a82;
+  font-weight: 700;
+  background: #dbeafe;
+  border-radius: 16px;
+  padding: 15px 38px;
+  box-shadow: 0 0 18px rgba(63, 131, 248, 0.2);
+}
+.result-placeholder {
+  color: #8c9abf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.result-calc-icon {
+  font-size: 2.7rem;
+  margin-bottom: 4px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .house-predict-panels {
+    flex-direction: column;
+    gap: 38px;
+    align-items: center;
+  }
+  .property-details-card,
+  .price-prediction-card {
+    min-width: 95vw;
+    max-width: 98vw;
+    padding: 32px 7vw 30px 7vw;
+  }
+  .back-btn {
+    margin-left: 20px;
+  }
+}
+/* View on Google Maps button */
+.maps-live-btn {
+  background: #10b981;              /* emerald green */
+  color: #ffffff;
+  border: none;
+  border-radius: 11px;
+  padding: 12px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
+  transition: background 0.25s ease, box-shadow 0.25s ease,
+              transform 0.05s ease;
+}
+
+.maps-live-btn::before {
+  content: "📍";
+  font-size: 1.2rem;
+}
+
+.maps-live-btn:hover {
+  background: #059669;
+  box-shadow: 0 8px 22px rgba(5, 150, 105, 0.45);
+}
+
+.maps-live-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.4);
+}
+
+.maps-live-btn:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: 2px;
+}

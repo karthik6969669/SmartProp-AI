@@ -1,0 +1,266 @@
+/* Container */
+.sell-house-root {
+  background: #f3f5f9;
+  min-height: 100vh;
+  padding: 30px 0;
+}
+
+/* Back link */
+.back-btn {
+  margin: 25px 0;
+  background: none;
+  border: none;
+  color: #0066cc;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: text-decoration 0.2s;
+}
+.back-btn:hover { text-decoration: underline; }
+
+/* Card */
+.property-details-card {
+  max-width: 560px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(34,102,165,0.12);
+  padding: 32px 30px;
+  position: relative;
+  animation: fadeDown 0.6s cubic-bezier(.32,1.18,.55,1.02) both;
+}
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Header */
+.property-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 16px;
+}
+.icon img { width: 40px; height: 40px; }
+.property-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #1f2f4a;
+  margin-left: 12px;
+}
+
+/* Form */
+.property-form { margin-top: 14px; }
+.form-group { margin-bottom: 18px; }
+.form-label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  color: #284579;
+}
+
+/* Inputs and selects */
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #cfd8e3;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #fafbfc;
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #38a86a;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(56,168,106,0.12);
+}
+
+/* Row layout */
+.form-row {
+  display: flex;
+  gap: 18px;
+}
+.form-row .form-group { flex: 1; }
+@media (max-width: 700px) {
+  .form-row { flex-direction: column; gap: 0; }
+}
+
+/* Location line */
+.input-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.input-icon { font-size: 20px; color: #38a86a; }
+.location-btn {
+  margin-left: 6px;
+  background: #e9f7ef;
+  color: #229954;
+  border: 1px solid #c6ead3;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.12s;
+}
+.location-btn:hover { background: #d9f2e3; }
+.location-btn:active { transform: scale(0.98); }
+
+/* Facilities */
+.facility-label {
+  font-size: 15px;
+  margin-bottom: 6px;
+  color: #2b507a;
+  font-weight: 600;
+}
+.facility-radios {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 7px;
+  color: #324b63;
+}
+.facility-radios input { margin-right: 6px; }
+
+/* Custom file upload */
+.custom-file-upload {
+  display: inline-block;
+  cursor: pointer;
+  background: linear-gradient(90deg,#2974f5 0%, #38a86a 100%);
+  color: #fff;
+  font-size: 1.02rem;
+  font-weight: 700;
+  padding: 9px 20px;
+  border-radius: 24px;
+  transition: background 0.19s, box-shadow 0.19s, transform 0.1s;
+  box-shadow: 0 4px 14px rgba(41,116,245,0.16);
+  border: none;
+  user-select: none;
+}
+.custom-file-upload:hover {
+  background: linear-gradient(90deg,#38a86a 0%, #2974f5 100%);
+  box-shadow: 0 6px 18px rgba(41,116,245,0.22);
+}
+.custom-file-upload:active { transform: translateY(1px); }
+
+/* Selected file names */
+.selected-files {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #556;
+  word-break: break-word;
+}
+
+/* Alerts */
+.error-msg {
+  color: #b00020;
+  background: #ffe6ea;
+  border: 1px solid #ffc2cc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  margin-top: 8px;
+}
+.success-msg {
+  color: #1e7f3e;
+  background: #e3f6ea;
+  border: 1px solid #c9eed7;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* Submit button */
+.predict-btn {
+  background: #38a86a;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  font-weight: 800;
+  border-radius: 10px;
+  padding: 12px 0;
+  width: 100%;
+  margin-top: 16px;
+  box-shadow: 0 4px 14px rgba(56,168,106,0.18);
+  transition: background 0.18s, transform 0.12s, box-shadow 0.18s;
+  cursor: pointer;
+}
+.predict-btn:hover {
+  background: #2f945c;
+  box-shadow: 0 6px 18px rgba(56,168,106,0.24);
+}
+.predict-btn:active { transform: translateY(1px); }
+
+/* Small helper */
+small { color: #7b8194; font-size: 13px; }
+/* Contact input wrapper (optional if you want spacing) */
+.form-group.contact-field {
+  margin-top: 6px;
+}
+
+/* Base style for the contact input */
+input[name="contact"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.8px solid #cfd8e3;
+  border-radius: 8px;
+  background: #fafbfc;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  transition: border-color 0.18s, box-shadow 0.18s, background 0.18s;
+}
+
+/* Placeholder color for subtle hint */
+input[name="contact"]::placeholder {
+  color: #9aa7bd;
+}
+
+/* Focus state to match your green accent */
+input[name="contact"]:focus {
+  border-color: #38a86a;
+  box-shadow: 0 0 0 3px rgba(56,168,106,0.12);
+  outline: none;
+  background: #ffffff;
+}
+
+/* Valid 10-digit feedback (applies when pattern/minLength/maxLength pass) */
+input[name="contact"]:valid {
+  border-color: #38a86a;
+}
+
+/* Invalid feedback while typing */
+input[name="contact"]:invalid:not(:placeholder-shown) {
+  border-color: #d12;
+  box-shadow: 0 0 0 3px rgba(209, 18, 18, 0.08);
+}
+
+/* Optional: small helper text under the field */
+.contact-hint {
+  display: block;
+  margin-top: 4px;
+  color: #7b8194;
+  font-size: 12.5px;
+}
+
+/* Optional: add a phone icon inside the input */
+.contact-input-wrap {
+  position: relative;
+}
+.contact-input-wrap .phone-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #38a86a;
+  pointer-events: none;
+}
+.contact-input-wrap input[name="contact"] {
+  padding-left: 34px; /* space for the icon */
+}

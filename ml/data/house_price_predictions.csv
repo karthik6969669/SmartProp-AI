@@ -1,0 +1,62 @@
+Location,Area_sqft,Property_Type,Bedrooms,Bathrooms,Year_Built,Condition,hospitalApplicable,hospitalDistance,schoolApplicable,schoolDistance,railwayApplicable,railwayDistance,busApplicable,busDistance,latitude,longitude,Predicted_Price,Date
+
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",15000,Apartment,1,3,,Excellent,276000,2025-09-15T06:23:20.298Z
+"Sivagiri, Tenkasi, Tamil Nadu, IND",1300,Duplex,3,4,,Excellent,170500,2025-09-15T06:24:43.575Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",7000,Villa,5,4,,Needs Renovation,356000,2025-09-15T06:25:37.070Z
+"HMGG+47H, Krishnan Kovil, Tamil Nadu 626126, India",80000,Independent House,4,5,,Excellent,1401000,2025-09-15T06:29:32.361Z
+"HMGG+47H, Krishnan Kovil, Tamil Nadu 626126, India",1222,Villa,4,3,,Good,219330,2025-09-15T07:29:27.179Z
+"MMR9+244, Melathiruvengadanathapuram, Tamil Nadu 627006, India",1500,Villa,4,2,2024,Good,223500,2025-09-22T13:02:03.485Z
+Rajapalayam,4596,Apartment,1,2,2014,Good,119940,2025-09-28T01:52:05.019Z
+chennai,1431,Apartment,5,4,2025,Good,272465,2025-09-28T01:53:13.139Z
+chennai,27000,Duplex,4,4,2024,Good,606000,2025-09-28T01:54:21.710Z
+"2XWX+QHJ, VOC Nagar, Coimbatore, Tamil Nadu 641006, India",27000,Duplex,4,4,2024,Good,606000,2025-09-28T01:59:13.498Z
+"26PG+73P Thirumalaikoil Rd Thenpothai, Tamil Nadu 627807 India",234,Duplex,3,3,1990,Good,154510,2025-09-28T02:06:25.774Z
+"2XWX+QHJ, VOC Nagar, Coimbatore, Tamil Nadu 641006, India",12000,Independent House,4,2,2020,Excellent,applicable,20,applicable,10,applicable,30,applicable,10,11.047,76.9989,381000,2025-09-28T03:23:42.338Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",14250,Apartment,3,2,1999,Needs Renovation,applicable,5,applicable,5,applicable,20,applicable,2,,,364750,2025-09-28T03:26:52.304Z
+"Rajapalayam,Avaram patti",2040,Apartment,3,2,2020,Excellent,applicable,10,notApplicable,,applicable,12,applicable,5,11.047,76.9989,181600,2025-09-30T02:22:55.161Z
+kalasalingam university,2470000,Apartment,5,5,2020,Excellent,applicable,2,applicable,1,applicable,12,applicable,2,11.047,76.9989,37301000,2025-09-30T02:24:50.891Z
+"2XWX+QHJ, VOC Nagar, Coimbatore, Tamil Nadu 641006, India",24700,Independent House,3,2,2010,Needs Renovation,applicable,20,applicable,10.9,applicable,22,applicable,5,11.047,76.9989,521500,2025-09-30T02:25:45.395Z
+"10 5th St Coimbatore, Tamil Nadu",1400,Independent House,2,3,2021,Good,applicable,11,applicable,2,applicable,25,applicable,10,11.047,76.9989,122000,2025-09-30T02:45:44.007Z
+"Itteri St Udayampalayam, Tamil Nadu",1000,Independent House,2,2,2010,Good,applicable,7,applicable,2.9,applicable,23.1,applicable,7.9,11.047,76.9989,116000,2025-09-30T03:17:44.009Z
+"Mookambigai Nagar Sridevi Nagar, Ganapathy Coimbatore, Tamil Nadu 641006 India",1000,Duplex,1,3,2020,Excellent,applicable,10,notApplicable,,notApplicable,,applicable,9.9,11.047,76.9989,66000,2025-09-30T03:36:02.545Z
+sivagiri north street,2010,Independent House,1,4,1999,Needs Renovation,applicable,10,applicable,12,notApplicable,,applicable,1.8,11.047,76.9989,81150,2025-09-30T04:14:05.686Z
+" Narayana e-techno school, Coimbatore 142, 144/2, Lakshmi Garden Santhini Nagar, Ganapathy Coimbatore, Tamil Nadu 641006 India",2010,Independent House,1,4,1999,Needs Renovation,applicable,10,applicable,0,applicable,10,applicable,1.8,11.047,76.9989,81150,2025-09-30T04:15:19.467Z
+"2XWX+QHJ, VOC Nagar, Coimbatore, Tamil Nadu 641006, India",5201,Independent House,4,4,2010,Excellent,notApplicable,,applicable,1,notApplicable,,applicable,5,11.047,76.9989,279015,2025-09-30T05:21:49.628Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",1000,Apartment,2,3,1999,Good,applicable,1,applicable,1,notApplicable,,applicable,2,9.574997461386138,77.67553752970296,116000,2025-10-06T05:41:55.210Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,0.8,applicable,2,notApplicable,0,applicable,2,9.575018079215221,77.6756097170062,1000,2025-10-07T05:08:40.741Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,0.8,applicable,2,notApplicable,0,applicable,2,9.575018079215221,77.6756097170062,1000,2025-10-07T05:09:37.239Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,1,applicable,1,notApplicable,0,applicable,2,9.575050244736843,77.67566073026316,1000,2025-10-07T05:24:16.672Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,1,applicable,1,notApplicable,0,applicable,2,9.575050244736843,77.67566073026316,1000,2025-10-07T05:43:47.018Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,1,applicable,1,notApplicable,0,applicable,2,9.575050244736843,77.67566073026316,1000,2025-10-07T05:45:20.415Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T05:52:48.259Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,2,applicable,1,applicable,2,applicable,1,,,1000,2025-10-07T05:54:06.586Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,2,applicable,1,applicable,2,applicable,1,,,1000,2025-10-07T05:54:09.172Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,applicable,2,applicable,1,notApplicable,0,applicable,1,,,1000,2025-10-07T06:05:21.925Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:17:10.137Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:17:28.605Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:17:30.084Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:17:30.967Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:17:31.597Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:17:32.189Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:22:31.583Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:22:36.651Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:22:37.435Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:22:43.155Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:23:10.755Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:23:13.324Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:38:43.267Z
+"1/4,Sabarimalayapuram, Teacher's Colony,Sivagiri,",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:38:44.206Z
+"2XWX+QHJ, VOC Nagar, Coimbatore, Tamil Nadu 641006, India",,,,,,,notApplicable,0,notApplicable,0,notApplicable,0,notApplicable,0,,,1000,2025-10-07T06:39:18.238Z
+"  Krishnan Kovil Tamil Nadu 626126 9.570208, 77.692013",,,,,,,applicable,2,applicable,2,notApplicable,0,applicable,12,9.575012614056815,77.67557470737898,1000,2025-10-09T03:54:17.740Z
+"  Krishnan Kovil Tamil Nadu 626126 9.570208, 77.692013",,,,,,,applicable,2,applicable,2,notApplicable,0,applicable,12,9.575012614056815,77.67557470737898,1000,2025-10-09T03:54:28.759Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,1,applicable,2,notApplicable,0,applicable,1,9.575012614056815,77.67557470737898,1000,2025-10-09T03:59:36.539Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,1,applicable,2,notApplicable,0,applicable,1,9.575012614056815,77.67557470737898,1000,2025-10-09T03:59:36.670Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,1,applicable,2,notApplicable,0,applicable,1,9.575012614056815,77.67557470737898,1000,2025-10-09T03:59:37.493Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,1,applicable,2,notApplicable,0,applicable,1,9.575012614056815,77.67557470737898,1000,2025-10-09T04:04:45.035Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,10,applicable,2,applicable,5,applicable,0.9,9.575015228649635,77.67557440494656,1000,2025-10-09T04:18:48.697Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,1,applicable,1.9,applicable,2,applicable,3,9.575015228649635,77.67557440494656,1000,2025-10-09T04:24:33.127Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,1,applicable,1.9,applicable,2,applicable,3,9.575015228649635,77.67557440494656,1000,2025-10-09T04:24:48.672Z
+"HMFG+X7M, Krishnan Kovil, Tamil Nadu 626126, India",,,,,,,applicable,2,applicable,1,notApplicable,0,applicable,3,9.575015228649635,77.67557440494656,1000,2025-10-09T04:27:22.702Z
+"2, Dindigul Rd, opposite bustand, Anna Nagar, Palani, Tamil Nadu 624601, India",,,,,,,applicable,1,applicable,2,applicable,33.9,applicable,1,10.4508,77.5148,1000,2025-10-18T09:16:35.351Z
+"2, Dindigul Rd, opposite bustand, Anna Nagar, Palani, Tamil Nadu 624601, India",,,,,,,applicable,1,applicable,2,applicable,33.9,applicable,1,10.4508,77.5148,1000,2025-10-18T09:16:44.765Z
+"2, Dindigul Rd, opposite bustand, Anna Nagar, Palani, Tamil Nadu 624601, India",,,,,,,applicable,1,applicable,2,applicable,33.9,applicable,1,10.4508,77.5148,1000,2025-10-18T09:16:49.674Z

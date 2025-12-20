@@ -1,0 +1,305 @@
+.land-predict-root {
+  min-height: 100vh;
+  background: #f6f7fb;
+  padding: 28px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d413c;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #3ba86b;
+  font-size: 1.1rem;
+  margin-left: 44px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.back-btn:hover {
+  color: #25693c;
+}
+
+.land-predict-panels {
+  display: flex;
+  gap: 34px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.land-details-card,
+.price-prediction-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 34px rgba(56, 168, 106, 0.09);
+  padding: 42px 34px 38px 34px;
+  min-width: 345px;
+  max-width: 440px;
+  flex: 1 0 340px;
+}
+
+.details-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+  gap: 10px;
+}
+.details-header .icon img {
+  width: 32px;
+  height: 32px;
+}
+.details-title {
+  font-size: 1.38rem;
+  font-weight: 700;
+  color: #168b3e;
+  letter-spacing: 0.2px;
+}
+.details-desc {
+  color: #7b849b;
+  font-size: 1.07rem;
+  margin-top: 7px;
+  margin-bottom: 32px;
+  line-height: 1.7;
+}
+
+.details-form {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+
+.form-label {
+  font-size: 1.07rem;
+  font-weight: 600;
+  color: #2d413c;
+  margin-bottom: 4px;
+  letter-spacing: 0.12px;
+  user-select: none;
+}
+
+.input-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+.input-icon {
+  font-size: 1.15rem;
+  color: #7b849b;
+}
+
+.details-form input,
+.details-form select {
+  width: 100%;
+  border: 1.5px solid #e2e7f7;
+  border-radius: 7px;
+  padding: 13px 13px;
+  font-size: 1.04rem;
+  background: #f8fafd;
+  transition: border-color 0.18s ease;
+  line-height: 1.4;
+  outline-offset: 3px;
+}
+.details-form input:focus,
+.details-form select:focus {
+  border-color: #3ba86b;
+  box-shadow: 0 0 10px rgba(56, 168, 106, 0.3);
+}
+
+.details-form select {
+  cursor: pointer;
+}
+
+.form-row {
+  display: flex;
+  gap: 21px;
+  margin-bottom: 0;
+}
+.form-row .form-group {
+  flex: 1;
+}
+
+.predict-btn {
+  background: linear-gradient(90deg, #38a86a 0%, #36c096 100%);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 16px 0;
+  font-size: 1.13rem;
+  font-weight: 700;
+  margin-top: 12px;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(54, 192, 150, 0.45);
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+.predict-btn:hover:not(:disabled) {
+  background: linear-gradient(90deg, #2ea356 0%, #2ca080 100%);
+  box-shadow: 0 8px 24px rgba(44, 161, 136, 0.7);
+}
+.predict-btn:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Use My Location Button */
+.location-btn {
+  background-color: #36c096;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.17s ease-in-out;
+}
+.location-btn:hover {
+  background-color: #2aa77b;
+}
+
+.input-with-icon > input {
+  flex: 1;
+}
+.input-with-icon > .location-btn {
+  margin-left: 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Price card */
+.price-prediction-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 390px;
+  justify-content: flex-start;
+  padding: 35px 34px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.price-header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 2px;
+}
+
+.price-icon {
+  font-size: 1.28rem;
+  color: #3ba86b;
+}
+
+.price-title {
+  font-size: 1.20rem;
+  font-weight: 600;
+  color: #3ba86b;
+}
+
+.price-desc {
+  color: #7b849b;
+  font-size: 1.01rem;
+  margin-bottom: 34px;
+}
+
+.price-output {
+  width: 100%;
+  margin-top: 6px;
+  text-align: center;
+  min-height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-result {
+  font-size: 1.45rem;
+  color: #2a9957;
+  font-weight: 700;
+  background: #daf7e3;
+  padding: 16px 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 18px rgba(56, 168, 106, 0.2);
+}
+
+.result-placeholder {
+  color: #8d96b7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.result-calc-icon {
+  font-size: 2.18rem;
+  margin-bottom: 2px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .land-predict-panels {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .land-details-card,
+  .price-prediction-card {
+    min-width: 96vw;
+    max-width: 99vw;
+    padding: 30px 8vw 24px 8vw;
+  }
+  .back-btn {
+    margin-left: 16px;
+  }
+}
+.area-row { display: flex; gap: 8px; align-items: center; }
+.area-unit { min-width: 140px; }
+.hint { font-size: 12px; color: #6b7280; margin-top: 4px; }
+/* View on Google Maps button */
+.maps-live-btn {
+  background: linear-gradient(90deg, #10b981 0%, #22c55e 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 16px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
+  transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.05s ease;
+}
+
+.maps-live-btn::before {
+  content: "📍";
+  font-size: 1.1rem;
+}
+
+.maps-live-btn:hover {
+  background: linear-gradient(90deg, #059669 0%, #16a34a 100%);
+  box-shadow: 0 8px 22px rgba(5, 150, 105, 0.45);
+}
+
+.maps-live-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.4);
+}
+
+.maps-live-btn:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: 2px;
+}
