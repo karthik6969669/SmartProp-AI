@@ -55,7 +55,7 @@ export default function BuyLandList() {
       setErr("");
       try {
         const res = await fetch(
-          `${process.env.REACT_APP_BACKEND_URL}/buy/lands`
+          `${process.env.REACT_APP_BACKEND_URL}/api/location`
         );
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
